@@ -2,5 +2,27 @@
     margin-right: 20px;
     color:white;
     flex:25%;
-    border: 1px solid red;
+}
+
+.quick-links-container ul {
+    margin-top: 20px;
+}
+
+.quick-links-container ul li{
+    margin-bottom: 10px;
+    width: 100%;
+    border-bottom: 1px solid rgb(54, 54, 54);
+}
+
+.quick-links-container li a{
+    color: #019AFC;
+    font-size: 15px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.quick-links-container li a span{
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+    margin-right: 5px;
 }

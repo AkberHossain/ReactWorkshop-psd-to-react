@@ -2,5 +2,24 @@
     margin-right: 20px;
     color:white;
     flex:25%;
-    border: 1px solid red;
+}
+
+.about-us-container img{
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0px;
+}
+
+.about-us-container div{
+    color:rgb(160, 160, 160);
+}
+
+.footer-read-more {
+    background-color: inherit;
+    color: #019AFC;
+    float: right;
 }

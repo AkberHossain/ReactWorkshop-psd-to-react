@@ -4,11 +4,20 @@ import './QuickLinks.css'
 
 export default function QuickLinks() {
     return (
-        <div>
-            <div className="quick-links-container">
-            <h2>QUICK LINKS</h2>
-            
-        </div>
+        <div className="quick-links-container">
+            <h4>QUICK LINKS</h4>
+            <ul>
+                <li><a href="#"><span>></span> Lorem ipsum is a link click This</a></li>
+                <li><a href="#"><span>></span> Lorem ipsum is a link</a></li>
+                <li><a href="#"><span>></span> Lorem ipsum is a link if you want</a></li>
+                <li><a href="#"><span>></span> Lorem ipsum is a link</a></li>
+                <li><a href="#"><span>></span> Lorem ipsum is a link click now</a></li>
+                <li><a href="#"><span>></span> Lorem ipsum is a link click This</a></li>
+                <li><a href="#"><span>></span> Lorem ipsum is a link</a></li>
+                <li><a href="#"><span>></span> Lorem ipsum is a link if you want</a></li>
+                <li><a href="#"><span>></span> Lorem ipsum is a link</a></li>
+                <li><a href="#"><span>></span> Lorem ipsum is a link click now</a></li>
+            </ul>
         </div>
     )
 }
