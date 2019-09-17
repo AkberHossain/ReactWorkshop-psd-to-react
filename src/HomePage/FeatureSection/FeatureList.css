@@ -1,0 +1,25 @@
+.feature-list-container {
+    display: flex;
+}
+
+.feature-list-container .left-side {
+    margin: auto;
+    flex:50%;
+}
+
+.feature-list-container .left-side img{
+    max-width: 100%;
+    height: auto;
+}
+
+.feature-list-container .right-side {
+    display: flex;
+    flex-wrap: wrap;
+    flex:50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .feature-list-container  {
+        flex-direction: column;
+    }
+  }

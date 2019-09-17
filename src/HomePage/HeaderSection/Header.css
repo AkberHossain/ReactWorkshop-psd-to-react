@@ -1,0 +1,22 @@
+.search-button{
+    background-color: #019AFC;
+    border-radius: 5%;
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.header-title h5{
+    padding-left: 12px;
+}
+
+.header-title h1{
+    font-size: 8vh;
+    padding-left: 10px;
+}
+
+.header-search {
+    font-size: 20px;
+    background-color: #F1F1F1;
+    border: none;
+}

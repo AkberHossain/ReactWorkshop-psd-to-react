@@ -1,0 +1,11 @@
+.feature-item-container {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    flex:50%;
+}
+
+.feature-item-container img {
+    margin: auto;
+}
+

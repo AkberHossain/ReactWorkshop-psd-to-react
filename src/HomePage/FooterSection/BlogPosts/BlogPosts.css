@@ -1,0 +1,6 @@
+.blog-posts-container {
+    margin-right: 20px;
+    color:white;
+    flex:25%;
+    border: 1px solid red;
+}
