@@ -9,9 +9,7 @@ export default function AboutUs() {
             <div>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem expedita nam neque eum cumque, quis ex! Doloremque vitae repudiandae dolore excepturi, deserunt autem cumque placeat veritatis illo quisquam natus minus.
             </div>
-            <button className="btn footer-read-more">
-                READ MORE >
-            </button>
+            <a href="#" className="footer-read-more">Read More &#9658;</a>
         </div>
     )
 }

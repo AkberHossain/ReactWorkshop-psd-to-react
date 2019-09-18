@@ -3,3 +3,8 @@
     color:white;
     flex:25%;
 }
+
+.form-error {
+    color: red;
+    font-size: 10px;
+}

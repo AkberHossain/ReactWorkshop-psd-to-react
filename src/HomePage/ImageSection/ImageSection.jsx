@@ -2,6 +2,8 @@ import React from 'react'
 
 import './ImageSection.css'
 
+import image1 from './images/pic2.jpg'
+
 export default function ImageSection() {
     return (
         <div className="image-section-container">
@@ -13,7 +15,7 @@ export default function ImageSection() {
                 <button className="btn read-more-button">READ MORE</button>
             </div>
             <div className="right-side">
-                <img src="https://via.placeholder.com/550x450"/>
+                <img src={image1}/>
             </div>
         </div>
     )

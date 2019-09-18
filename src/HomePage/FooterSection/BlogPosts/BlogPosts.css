@@ -3,3 +3,8 @@
     color:white;
     flex:25%;
 }
+
+.blog-post {
+    color: rgb(160, 160, 160);
+    margin-top: 20px;
+}

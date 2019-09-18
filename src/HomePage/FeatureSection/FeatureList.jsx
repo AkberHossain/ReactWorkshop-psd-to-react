@@ -4,11 +4,13 @@ import FeatureItem from './FeatureItem'
 
 import './FeatureList.css'
 
+import image1 from './images/pic1.jpg'
+
 export default function FeatureList() {
     return (
         <div className="feature-list-container">
             <div className="left-side">
-                <img src="https://via.placeholder.com/550x450"/>
+                <img src={image1}/>
             </div>
             <div className="right-side">
                 <FeatureItem />
