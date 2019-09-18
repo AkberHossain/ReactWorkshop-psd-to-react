@@ -1,5 +1,6 @@
 .feature-list-container {
     display: flex;
+    margin-top: 30px;
 }
 
 .feature-list-container .left-side {

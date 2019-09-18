@@ -3,9 +3,19 @@
     flex-direction: column;
     text-align: center;
     flex:50%;
+    margin-top: 10px;
 }
 
 .feature-item-container img {
-    margin: auto;
+    margin: 10px auto;
+}
+
+.feature-item-container h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.feature-item-container p {
+    font-size: 13px;
 }
 

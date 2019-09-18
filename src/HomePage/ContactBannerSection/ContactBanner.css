@@ -1,24 +1,34 @@
 .contact-banner-container {
-    padding: 10px;
+    padding: 0px;
     border-left: 12px solid #019AFC;
     background-color: #F1F1F1;
     display: flex;
-    margin: 35px 20px;
+    align-content: center;
+    height: 120px;
+    margin: 20px 20px;
 }
 
 .contact-banner-container .left-side {
-    flex:70%;
-    padding: 40px;
+    padding: 30px;
+    flex: 60%;
+}
+
+.contact-banner-container .left-side h1{
+    font-size: 36px;
+}
+
+.contact-banner-container .left-side h5{
+    font-size: 18px;
 }
 
 .contact-banner-container .right-side {
-    flex:30%;
-    padding: 40px;
+    padding : 30px;
+    flex: 40%;
 }
 
 .contact-banner-container .read-more-button {
     background-color: #019AFC;
     border-radius: 5%;
     color: white;
-    font-size: 23px;
+    font-size: 26px;
 }

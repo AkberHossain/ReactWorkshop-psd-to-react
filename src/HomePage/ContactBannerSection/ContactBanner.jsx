@@ -6,9 +6,9 @@ export default function ContactBanner() {
     return (
         <div className="contact-banner-container">
             <div className="left-side">
-                <h1>Your title can be long and descriptive</h1>
+                <h1>Your title can be long</h1>
                 <h5>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque numquam perferendis accusamus commodi
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 </h5>
             </div>
             <div className="right-side">

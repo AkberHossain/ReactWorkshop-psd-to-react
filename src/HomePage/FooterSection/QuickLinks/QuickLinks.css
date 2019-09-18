@@ -2,21 +2,26 @@
     margin-right: 20px;
     color:white;
     flex:25%;
+    font-size: 12px;    
 }
 
 .quick-links-container ul {
     margin-top: 20px;
 }
 
+.quick-links-container h4 {
+    font-size: 12px;
+}
+
 .quick-links-container ul li{
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     width: 100%;
     border-bottom: 1px solid rgb(54, 54, 54);
 }
 
 .quick-links-container li a{
     color: #019AFC;
-    font-size: 15px;
+    font-size: 12px;
     text-align: left;
     text-decoration: none;
 }

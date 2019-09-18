@@ -3,7 +3,7 @@
     border-top: 5px solid #E9E9E9;
     border-bottom: 5px solid #E9E9E9;
     padding: 10px;
-    margin:40px 0px;
+    margin:10px 0px;
     display: flex;
 }
 
@@ -11,26 +11,34 @@
     background-color: #019AFC;
     border-radius: 5%;
     color: white;
-    font-size: 23px;
+    font-size: 16px;
 }
 
 .image-section-container .left-side {
-    padding: 40px;
-    flex:50%;
+    flex:1;
+    margin: auto 0px;
 }
 
 .image-section-container .left-side h1, h5{
     margin-bottom: 30px;
 }   
 
+.image-section-container .left-side h1{
+    font-size: 36px;
+} 
+
+.image-section-container .left-side h5{
+    font-size: 16px;
+} 
+
 .image-section-container .right-side {
     margin:auto;
-    flex:50%;
+    flex:1;
 }
 
 .image-section-container .right-side img{
-    max-width: 100%;
-    height: auto;
+    max-width: 550px;
+    height: 440px;
 }
 
 @media only screen and (max-width: 768px) {

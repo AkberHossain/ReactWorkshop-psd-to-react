@@ -2,6 +2,11 @@
     margin-right: 20px;
     color:white;
     flex:25%;
+    font-size: 12px;
+}
+
+.about-us-container h4 {
+    font-size: 12px;
 }
 
 .about-us-container img{
@@ -22,4 +27,5 @@
     background-color: inherit;
     color: #019AFC;
     float: right;
+    font-size: 12px;
 }

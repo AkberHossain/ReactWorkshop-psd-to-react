@@ -25,16 +25,16 @@ export default class ContactUsForm extends React.Component {
                 <p className="form-error">{this.state.formError}</p>
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">
-                    <input type="text" className="form-control" placeholder="Enter Name" name="name" onChange={this.onChange}/>
+                    <input type="text" className="form-control" placeholder="Name" name="name" onChange={this.onChange}/>
                     </div>
                     <div className="form-group">
-                    <input type="email" className="form-control" placeholder="Enter Email" name="email" onChange={this.onChange}/>
+                    <input type="email" className="form-control" placeholder="Email" name="email" onChange={this.onChange}/>
                     </div>
                     <div className="form-group">
-                    <input type="text" className="form-control" placeholder="Enter Subject" name="subject" onChange={this.onChange}/>
+                    <input type="text" className="form-control" placeholder="Subject" name="subject" onChange={this.onChange}/>
                     </div>
                     <div className="form-group">
-                    <textarea type="text" rows='5' className="form-control" placeholder="Enter Message" name="message" onChange={this.onChange}/>
+                    <textarea rows='5' className="area form-control" placeholder="Message" name="message" onChange={this.onChange}/>
                     </div>
                     <button type="submit" className="btn footer-read-more">Submit</button>
                 </form>

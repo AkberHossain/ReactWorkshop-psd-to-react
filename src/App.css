@@ -12,4 +12,5 @@ body {
 .App {
   width: 1000px;
   margin: 0px auto;
+  padding:0px;
 }
